@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustapha Ridwan</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/ab174e0070.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="mx-auto sm:max-w-80 md:max-w-200 lg:max-w-300">
+    <nav class=" fixed flex justify-around items-center top-0 right-0 left-0  mt-3 z-40 ">
+      <!-- Mobile menu, show/hide based on menu state. -->
+      
+        <div class=" flex justify-between item-center sm:w-48 rounded-lg md:w-90   bg-gray-800">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a href="#Home" class="flex-none rounded-md bg-[#E2F266]  px-3 py-2 text-base md:text-2xl font-medium text-white" aria-current="page"><i class="fa-solid fa-house"></i></a>
+          <a href="#Projects" class=" flex-initial rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white md:text-2xl ">Projects</a>
+          <a href="./file/Mustapha Ridwan Temitope  Resume.pdf" class=" flex-initial rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white md:text-2xl " download="">Resume</a>
+        </div>
+        <div class="socials flex text-xl md:text-2xl md:py-2 md:px-3 bg-gray-800 text-white px-2 py-1 rounded-lg">
+            <a href="https://www.pnkedin.com/in/ridwan-mustapha001?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
+              <i class="fa-brands fa-linkedin pr-2 " aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Dev-musty" target="_blank">
+              <i class="fa-brands fa-github pr-2" aria-hidden="true"></i>
+            </a>
+            <a href="https://x.com/MustaphaRidwanT" target="_blank">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="intro mt-[150px] mb-[100px]  flex flex-col  items-center animate md:items-start md:mx-[100px] lg:mx-[200px] " id="Home">
+      <div class="text-center md:flex md:items-center  md:gap-4">
+        <img src="./images/ME.jpg" class="rounded-full sm:w-48 md:w-24   mb-6 " alt="my-image">
+        <div class="md:text-start">
+          <p class="pb-2"><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+          <h1 class=" font-bold ">Hi, I'm <span class="text-xl md:text-lg text-[#E2F266]">Mustapha Ridwan</span></h1>
+        </div>
+      </div>
+      <p class="text-center leading-7 sm:text-sm  md:text-xl md-leading-8 md:text-start sm:w-24 md:w-150 ">Aspiring Full Stack Developer. <br>
+        I loved transforming ideas into fully functional, creative web apppcations. I enjoy solving challenges and bringing concepts to pfe through clean code and thoughtful design.
+      </p>
+    </div>
+    <div class="tools mt-8 mb-6  animate">
+      <h2 class="mb-6 font-bold text-3xl text-center">Technologies</h2>
+      <div class="grid  justify-items-center">
+        <div class="grid grid-cols-3 gap-3 md:w-150 text-[#E2F266] text-center text-xl md:text-2xl">
+          <p class="bg-gray-800 py-2 px-3 rounded-lg"> HTML</p>
+          <p class="bg-gray-800 col-span-2 py-2 px-3 rounded-lg" >Tailwind CSS</p>
+          <p class="bg-gray-800 col-span-2 py-2 px-3 rounded-lg">JavaScript</p>
+          <p class="bg-gray-800 py-2 px-3 rounded-lg">CSS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project flex flex-col items-center animate shadow-xl" id="Projects">
+      <h2 class="my-8 font-bold text-4xl text-center">Projects</h2>
+      <div class=" bg-gray-800 rounded-2xl md:flex   items-center sm:w-24 md:w-180  lg:w-240  ">
+        <img class="mx-auto  sm:w-24 md:w-94 lg:w-130 md:rounded-l-2xl md:rounded-r  sm:rounded-t-2xl" src="./images/preview3.png" alt="preview3" />
+        <div class="card-body p-4 ">
+          <h3 class="card-title sm:text-2xl md:text-3xl font-bold mb-2">Productive</h3>
+          <div class="link mb-2 md:text-2xl">
+            <a href="https://github.com/Dev-musty/Productive" target="_blank">
+              <i class="fa-brands fa-github pr-2" aria-hidden="true"></i>
+            </a>
+            <a href="https://dev-musty.github.io/Productive/html/Main.html" target="_blank">
+              <i class="fa-solid fa-arrow-up-right-from-square " aria-hidden="true"></i>
+            </a>
+          </div>
+          <p class="card-text md:text-xl">
+            Productive is designed to help you make most of your time. It offers a suite yet powerful tools that enhane focus,track task, and bring a touch of fun into your day.
+          </p>
+          <div class="project-tools mt-4">
+            <div class="grid grid-cols-3 gap-3 text-gray-900 font-medium text-center text-xl md:text-2xl font-medium ">
+              <p class="bg-[#E2F266] py-2 px-3 rounded-lg "> HTML</p>
+              <p class="bg-[#E2F266] col-span-2 py-2 px-3 rounded-lg" >JQuery</p>
+              <p class="bg-[#E2F266] col-span-2 py-2 px-3 rounded-lg">JavaScript</p>
+              <p class="bg-[#E2F266] py-2 px-3 rounded-lg">CSS</p>
+            </div>
+          <div>
+              
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="contact animate">
+      <h2 class="my-8 font-bold text-xl md:text-3xl text-center">Get in Touch</h2>
+      <div class=" info bg-gray-700 p-4 md:w-170 mx-auto rounded-xl md:text-3xl text-white shadow-xl">
+        <p class="text-center">Want to collaborate or just say hi? I'd love to hear from you.</p>
+        <div class="social flex justify-center mt-3 text-lg md:text-3xl md:mt-8">
+          <a href="https://www.linkedin.com/in/ridwan-mustapha001?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
+            <i class="fa-brands fa-linkedin pr-2  " aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Dev-musty" target="_blank">
+            <i class="fa-brands fa-github pr-2" aria-hidden="true"></i>
+          </a>
+          <a href="https://x.com/MustaphaRidwanT" target="_blank">
+            <i class="fa-brands fa-x-twitter pr-2" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:Mustaphatemitope19@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer class="mt-8 text-center text-white bg-gray-800">
+    <h3 class="pt-3 text-2xl font-bold md:text-4xl md:pt-8 ">Let's collaborate</h3>
+    <div class="social flex justify-center items-center mt-3 md:mt-8 mb-8 ">
+      <a href=" mailto:Mustaphatemitope19@gmail.com" target="_blank">
+        <i class="fa-solid fa-envelope pr-2 text-4xl md:text-5xl text-[#E2F266]" aria-hidden="true"></i>
+      </a>
+      <a href="./file/Mustapha Ridwan Temitope  Resume.pdf" download="" class="bg-[#E2F266] text-black py-1 px-3 text-sm md:text-2xl md:py-1 font-medium rounded-lg">Resume</a>
+    </div>
+  
+    <p>© 2025 Mustapha Ridwan</p>
+   </footer>
+</body>
+</html>
